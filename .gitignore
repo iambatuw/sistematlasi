@@ -1,0 +1,35 @@
+# Local configuration and secrets
+/wp-config.php
+/.env
+/.env.*
+!/.env.example
+/auth.json
+
+# Runtime data and user-generated content
+/wp-content/database/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/advanced-cache.php
+/wp-content/debug.log
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Private legacy migration source (not required to run this WordPress site)
+/_laravel_archive/
+/.claude/
+
+# Development-machine files
+/.DS_Store
+Thumbs.db
+/.fleet/
+/.idea/
+/.vscode/
+/.zed/
+/.phpactor.json
+/.phpunit.result.cache
+/.phpunit.cache/
+/node_modules/
+/vendor/

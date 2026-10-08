@@ -1,0 +1,12 @@
+/* Server-rendered WordPress controls. */
+.search-field:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+.search-field input:focus-visible { outline: 0; }
+.search-field input[type="search"] { font-size: max(16px, 1rem); }
+.pagination-wrap .page-numbers { display: inline-grid; min-width: 44px; min-height: 44px; place-items: center; padding: 8px 12px; margin: 0 3px; border-radius: 6px; font-variant-numeric: tabular-nums; }
+.pagination-wrap .page-numbers.current { color: var(--ink); background: var(--paper-deep); font-weight: 700; }
+.pagination-wrap a.page-numbers:hover { color: var(--accent); background: var(--paper-deep); }
+.prose-content img { height: auto; }
+@media (max-width: 680px) {
+    .header-actions > .atlas-language-link { display: none; }
+    .pagination-wrap { text-align: center; }
+}
